@@ -1,0 +1,15 @@
+body {
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(16, 100px);
+  
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.box {
+  background-color: #20262e;
+  color: white;
+}
